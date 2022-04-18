@@ -24,6 +24,10 @@ h1 {
   color: #2c3e50;
 }
 
+.icone {
+  margin: 10px;
+}
+
 /* .icones {
   padding-left: 50px;
   padding-right: 50px;
@@ -59,7 +63,7 @@ h1 {
 }
 
 #instagram:hover {
-  color: #833ab4;
+  color: #b82fa1;
 }
 
 #whatsapp:hover {
