@@ -10,6 +10,8 @@
 <br>
 <hr>
 
+## 🤩 Sobre
+
 O projeto é um portifólio desenvolvidor por mim onde nele podemos explorar mais um pouco sobre minhas habilidades e também verificar alguns dos meus projetos podendo
 também entrar em contato comigo atravez das funções de contato que se encontra no site. Pode ficar a vontade para explorar!!!
 
@@ -26,5 +28,5 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🚀 Venha conferir 
 
-- [meu Portfólio](https://portifolio-programacao-web.vercel.app/)
+- [Meu Portfólio](https://portifolio-programacao-web.vercel.app/)
 
