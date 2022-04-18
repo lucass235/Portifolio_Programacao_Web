@@ -20,6 +20,28 @@ h1 {
   margin: 10px;
 }
 
+.back-top {
+  background: #4d5edf;
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  padding: 0.5rem;
+  clip-path: circle();
+  color: white;
+  font-size: 1.5rem;
+  line-height: 0;
+  visibility: visible;
+  opacity: 1;
+  transition: 0.3s;
+  transform: translateY(20%);
+}
+
+/* .back-top.show {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+} */
+
 #github,
 #linkedin,
 #instagram,
