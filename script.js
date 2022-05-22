@@ -1,24 +1,16 @@
-function submit(event) {
-  event.preventDefault();
-  let name = document.getElementById("nameForm").value;
-  let email = document.getElementById("emailForm").value;
-  let msg = document.getElementById("msgForm").value;
-  var form = document.getElementById("formsContact");
+// import emailjs from 'emailjs-com';
 
-  if (name == "" || email == "" || msg == "") {
-    alert("Por favor, preencha todos os campos.");
-  } else {
-    alert(
-      name +
-      " sua mensagem foi enviada com suceeso" +
-      "\n" +
-      "Seu email: " +
-      email +
-      "\n" +
-      "Sua mensagem: " +
-      msg
-    );
-    form.reset();
-  }
+function sendEmail(event) {
+  alert("E-mail enviado com sucesso!");
+  // event.stopPropagation();
+  // event.preventDefault();
+  // let form = document.getElementById('formsContact');
+  // emailjs.sendEmail('emailLucasGmail', 'template_7lbcakl', e.target, 'mRfbfVdwZLhJUl6Ty')
+  //   .then((result) => {
+  //     alert('Sua mensagem foi enviada!');
+  //   }, (error) => {
+  //     alert(error.message);
+  //   });
+  // e.target.reset();
+  // form.reset();
 }
-

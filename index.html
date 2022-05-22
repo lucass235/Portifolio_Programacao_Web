@@ -7,12 +7,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+    crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/59436bc63a.js" crossorigin="anonymous"></script>
   <title>Portifólio Lucas</title>
 </head>
 
 <body class="p-5 mt-4">
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
     <a class="navbar-brand" href="#">Lucas dos Santos</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,12 +49,15 @@
           abaixo.
         </p>
         <p>
-          <a href="https://api.whatsapp.com/send?phone=5581996479569&text=Oi%2C%20me%20chamo%20..." class="btn btn-dark my-2">Contato</a>
+          <a href="https://api.whatsapp.com/send?phone=5581996479569&text=Oi%2C%20me%20chamo%20..."
+            class="btn btn-dark my-2">Contato</a>
         </p>
         <div class="mb-3">
-          <a target="_blank" href="https://www.linkedin.com/in/lucass235/"><i class="fab fa-linkedin" id="linkedin"></i></a>
+          <a target="_blank" href="https://www.linkedin.com/in/lucass235/"><i class="fab fa-linkedin"
+              id="linkedin"></i></a>
           <a target="_blank" href="https://www.github.com/lucass235"><i class="fab fa-github" id="github"></i></a>
-          <a target="_blank" href="https://www.instagram.com/lucasdossantos235/"><i class="fab fa-instagram" id="instagram"></i></a>
+          <a target="_blank" href="https://www.instagram.com/lucasdossantos235/"><i class="fab fa-instagram"
+              id="instagram"></i></a>
         </div>
       </div>
     </div>
@@ -82,8 +93,8 @@
                 </ul>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <button type="button" class="mt-2 btn btn-sm btn-outline-primary"><a style="text-decoration: none;" target="_blank"
-                        class="text-reset" href="http://desafio-angular-bootstrap.vercel.app/">Ver</a>
+                    <button type="button" class="mt-2 btn btn-sm btn-outline-primary"><a style="text-decoration: none;"
+                        target="_blank" class="text-reset" href="http://desafio-angular-bootstrap.vercel.app/">Ver</a>
                     </button>
                   </div>
                 </div>
@@ -110,8 +121,8 @@
                 </ul>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <button type="button" class="mt-2 btn btn-sm btn-outline-primary"><a style="text-decoration: none;" target="_blank"
-                        class="text-reset" href="https://nifty-goodall-09ce2b.netlify.app/#home">Ver</a>
+                    <button type="button" class="mt-2 btn btn-sm btn-outline-primary"><a style="text-decoration: none;"
+                        target="_blank" class="text-reset" href="https://nifty-goodall-09ce2b.netlify.app/#home">Ver</a>
                     </button>
                   </div>
                 </div>
@@ -121,13 +132,13 @@
 
           <div class="col-md-6">
             <div class="card shadow-sm mt-2">
-              <img class="bd-placeholder-img card-img-top" src="./assets/img/restaurants.png">
+              <img class="bd-placeholder-img card-img-top" src="./assets/img/restaurants.jpeg">
               <text class="text-center h6">Restaurantes</text>
               </img>
 
               <div class="card-body">
                 <p class="card-text">
-                  Projeto feito em Angular no curso de aprendizagem em Angular da Udemy, com o professor
+                  Projeto feito em Angular no curso de aprendizagem da Udemy, com o professor
                   Tarson, nele temos um menu de restaurantes onde conseguimos fazer pedidos e finalizar a
                   compra.
                 </p>
@@ -141,8 +152,8 @@
                 </ul>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <button type="button" class="mt-2 btn btn-sm btn-outline-primary"><a style="text-decoration: none;" target="_blank"
-                        class="text-reset" href="https://restaurantes-em-angularr.vercel.app/">Ver</a>
+                    <button type="button" class="mt-2 btn btn-sm btn-outline-primary"><a style="text-decoration: none;"
+                        target="_blank" class="text-reset" href="https://restaurantes-em-angularr.vercel.app/">Ver</a>
                     </button>
                   </div>
                 </div>
@@ -187,32 +198,26 @@
     </div>
     <div class="row">
       <div class="col">
-        <form id="formsContact">
+        <!-- formulario -->
+        <form id="formsContact" >
           <div class=" mb-3">
-            <input type="text" class="form-control" id="nameForm" placeholder="Seu Nome" required="requered">
+            <input type="text" class="form-control" id="nameForm" name="name" placeholder="Seu Nome" required="requered">
           </div>
           <div class=" mb-3">
-            <input type="email" class="form-control" id="emailForm" placeholder="Seu E-mail" required="requered">
+            <input type="email" class="form-control" id="emailForm" name="email" placeholder="Seu E-mail" required="requered">
           </div>
           <div class="">
-            <textarea class="form-control" placeholder="Mensagem" id="msgForm" style="height: 100px" required="requered"></textarea>
+            <textarea class="form-control" placeholder="Mensagem" name="message" id="msgForm" style="height: 100px"
+              required="requered"></textarea>
           </div>
+          <button onclick="sendEmail()" class="btn btn-primary mt-2" type="submit">Enviar</button>
         </form>
+       
+        <!-- fim formulario -->
       </div>
     </div>
-    <button onclick="submit(event)" class="btn btn-primary mt-2" type="submit">Enviar</button>
   </section>
-
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
-    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
   <script src="./script.js"></script>
-
-  <a href="#"> <button href="#" class="btn btn-primary btn-floating" id="back-top"><i class="fa-solid fa-arrow-up"></i></button> </a>
-
 </body>
 
 <!-- footer -->
@@ -222,12 +227,16 @@
       <span>Me encontre nas redes socias:</span>
     </div>
     <div>
-      <a target="_blank" href="https://www.facebook.com/Lucass235/" class="me-4 text-reset icone"><i class="fab fa-facebook-f"></i></a>
-      <a target="_blank" href="https://twitter.com/Lucass235" class="me-4 text-reset icone"><i class="fab fa-twitter"></i></a>
+      <a target="_blank" href="https://www.facebook.com/Lucass235/" class="me-4 text-reset icone"><i
+          class="fab fa-facebook-f"></i></a>
+      <a target="_blank" href="https://twitter.com/Lucass235" class="me-4 text-reset icone"><i
+          class="fab fa-twitter"></i></a>
       <a target="_blank" href="https://www.instagram.com/lucasdossantos235/" class="me-4 text-reset icone"> <i
           class="fab fa-instagram"></i></a>
-      <a target="_blank" href="https://www.linkedin.com/in/lucass235/" class="me-4 text-reset icone"> <i class="fab fa-linkedin"></i></a>
-      <a target="_blank" href="https://www.github.com/lucass235" class="me-4 text-reset icone"><i class="fab fa-github"></i></a>
+      <a target="_blank" href="https://www.linkedin.com/in/lucass235/" class="me-4 text-reset icone"> <i
+          class="fab fa-linkedin"></i></a>
+      <a target="_blank" href="https://www.github.com/lucass235" class="me-4 text-reset icone"><i
+          class="fab fa-github"></i></a>
     </div>
   </section>
   <section class="">
@@ -237,7 +246,8 @@
           <h6 class="text-uppercase fw-bold mb-4">Tecnologias conhecidas</h6>
           <a target="_blank" href="https://angular.io/" class="text-reset list-group-item ">Angular</a>
           <a target="_blank" href="https://git-scm.com/" class="text-reset list-group-item ">Git</a>
-          <a target="_blank" href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" class="text-reset list-group-item ">Html</a>
+          <a target="_blank" href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"
+            class="text-reset list-group-item ">Html</a>
           <a target="_blank" href="https://www.typescriptlang.org/" class="text-reset list-group-item ">TypeScript</a>
           <a target="_blank" href="https://getbootstrap.com/" class="text-reset list-group-item ">Bootstrap</a>
         </div>
